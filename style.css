@@ -794,3 +794,10 @@ img { display: block; max-width: 100%; }
   .bento-resume { grid-column: span 1; }
   .hero-name { font-size: clamp(60px, 20vw, 90px); }
 }
+
+.reveal-section,
+.reveal-item {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
